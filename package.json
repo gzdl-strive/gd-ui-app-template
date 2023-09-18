@@ -1,12 +1,19 @@
 {
-  "name": "gd-ui-app-template",
+  "name": "gd-ui-vite-js",
+  "private": true,
   "version": "1.0.0",
-  "description": "the cli template of gd-ui",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "keywords": ["cli", "template"],
-  "author": "gzdl-strive",
-  "license": "MIT"
+  "dependencies": {
+    "gd-ui-vite": "^0.6.0",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.5"
+  }
 }
