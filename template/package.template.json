@@ -1,8 +1,10 @@
 {
   "name": "{{ name }}",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.0.0",
   "type": "module",
+  "description": "模版文件——gd-ui脚手架构建的js模版项目",
+  "keywords": ["vite", "{{ variant }}"],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
