@@ -1,10 +1,10 @@
 {
-  "name": "gd-ui-vite-ts",
+  "name": "{{ name }}",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "description": "模版——gd-ui脚手架创建的ts模版项目",
-  "keywords": ["vite", "ts"],
+  "keywords": ["vite", "{{ variant }}"],
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
