@@ -1,0 +1,12 @@
+{
+  "name": "gd-ui-app-template",
+  "version": "1.0.0",
+  "description": "the cli template of gd-ui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["cli", "template"],
+  "author": "gzdl-strive",
+  "license": "MIT"
+}
